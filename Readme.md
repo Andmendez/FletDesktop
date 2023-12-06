@@ -1,4 +1,5 @@
 <!-- Fluter -->
+En este repositorio se vera aplicado la guia que proporcia flet.dev para poder realizar GUI en este caso para escritorio.
 
 
 Programas Hechos:
