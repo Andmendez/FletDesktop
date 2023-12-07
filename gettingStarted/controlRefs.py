@@ -54,4 +54,8 @@ def main(page):
         ft.ElevatedButton("Say hello!", on_click=btn_click),
         ft.Column(ref=greetings),
     )
+
+    #Ahora podemos ver claramente en page.add() la estructura de la página y todos los controles que la componen.
+
+### //////////////////////////////////////////////////////////////////////////////////////// ###
 ft.app(target=main)
