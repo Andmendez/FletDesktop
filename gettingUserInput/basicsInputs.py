@@ -65,7 +65,7 @@ def main(page: ft.Page):
 
 # Dropdown
 # Tiene multiples opciones de colores y al seleccionar uno y darle un boton aparece un texto: Color seleccionado
-# en el caso de no seleccionar ninguno saldra texto: None
+# en el caso de no seleccionar ninguno saldra texto: None, el label te indica que es el dropdown
     def button_clicked(e):
         output_text.value = f"Dropdown value is:  {color_dropdown.value}"
         page.update()
