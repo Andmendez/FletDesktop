@@ -25,11 +25,23 @@ def main(page = ft.Page):
 ### //////////////////////////////////////////////////////////////////////////////////////// ###
 
 #En este caso se deshabilita una de nuestras entradas impidiendo presionar con el mouse.
+    # first_name = ft.TextField()
+    # last_name = ft.TextField()
+    # first_name.disabled = False
+    # last_name.disabled = True
+    # page.add(first_name, last_name)
+
+### //////////////////////////////////////////////////////////////////////////////////////// ###
+
+#O se puede deshabilitar una columna:
     first_name = ft.TextField()
     last_name = ft.TextField()
-    first_name.disabled = False
-    last_name.disabled = True
-    page.add(first_name, last_name)
+    c = ft.Column(controls=[
+        first_name,
+        last_name
+    ])
+    c.disabled = True
+    page.add(c)
 
-
+    
 ft.app(target=main)
