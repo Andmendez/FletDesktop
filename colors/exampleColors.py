@@ -13,7 +13,7 @@ def main(page: ft.Page):
     #Formas de cambiar el color a un texto:
     text = ft.Text("Write to Email: ")
     content_text = ft.TextField(label = "Email", color="#FF0000")
-    button = ft.ElevatedButton("Send.", color = "#FF0000")
+    button = ft.ElevatedButton("Send.", color = "#FF0000", bgcolor = ft.colors.RED)
     # /////// #
     # text.color = ft.colors.RED  # Colores predefinidos en flet
     # /////// #
